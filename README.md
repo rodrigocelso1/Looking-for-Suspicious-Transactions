@@ -1,6 +1,6 @@
 # Unit-7-Homework-Assignment-Looking-for-Suspicious-Transactions
 
-![fraudster](credit_card_fraudster.jpg)
+![fraudster](Images/credit_card_fraudster.jpg)
 
 ## Background
 Fraud is prevalent these days, whether you are a small taco shop or a large international business. While there are emerging technologies that employ machine learning and artificial intelligence to detect fraud, many instances of fraud detection still require strong data analytics to find abnormal charges.
@@ -16,4 +16,49 @@ You are asked to accomplish three main tasks:
 
 3. Data Analysis: Analyze the data to identify possible fraudulent transactions.
 
+## Instructions 1
 
+Using a Jupyter Notebook, your report should do the following:
+
+
+* Isolate (or group) the transactions of each cardholder.
+
+
+* Consider the time period 7:00 a.m. to 9:00 a.m.
+
+
+* Show the top 100 highest transactions during this time period.
+
+### Question 1
+Do you see any fraudulent or anomalous transactions.
+
+Explain why you think there might be fraudulent transactions during this time frame.
+
+
+## Instructions 2
+Some fraudsters hack a credit card by making several small payments (generally less than $2.00), which are typically ignored by cardholders. Count the transactions that are less than $2.00 per cardholder. 
+
+### Question 2
+Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
+
+
+## Instructions 3
+Verify if there are any fraudulent transactions in the history of two of the most important customers of the firm. For privacy reasons, you only know that their cardholders' IDs are 18 and 2.
+
+
+Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder. In order to compare the patterns of both cardholders, create a line plot containing both lines. 
+
+### Question 3
+
+What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
+
+
+## Instructions 4
+
+The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. You are asked to find any anomalous transactions during that period.
+
+
+Using Plotly Express, create a series of six box plots, one for each month, in order to identify how many outliers per month for cardholder ID 25.
+
+### Question 3
+Do you notice any anomalies? Describe your observations and conclusions.
