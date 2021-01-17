@@ -52,6 +52,10 @@ Using hvPlot, create a line plot representing the time series of transactions ov
 
 What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
 
+![CardHolder2_18](Images/Analysis_CH_2_18.png)
+
+*Answer*: After visually analyzed the spending patterns, it can be concluded that there may be some fraudulent transactions in the cardholder 18 records since there are some anomalous amounts throughout the year that break the typical spending pattern that can be seen on cardholder 2.
+
 
 ## Instructions 4
 
@@ -60,5 +64,9 @@ The CEO of the biggest customer of the firm suspects that someone has used her c
 
 Using Plotly Express, create a series of six box plots, one for each month, in order to identify how many outliers per month for cardholder ID 25.
 
-### Question 3
+### Question 4
 Do you notice any anomalies? Describe your observations and conclusions.
+
+![CardHolder_25](Images/Analysis_Holder25.png)
+
+*Answer*: It can be concluded that cardholder 25 has been hacked along all the first semester of 2018 due to the high and consistent expenditures, except for February where there are not anomalous transactions.
