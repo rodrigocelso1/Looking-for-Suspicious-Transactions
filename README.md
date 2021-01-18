@@ -29,17 +29,14 @@ Using a Jupyter Notebook, your report should do the following:
 
 * Show the top 100 highest transactions during this time period.
 
-### Question 1
-Do you see any fraudulent or anomalous transactions.
-
-Explain why you think there might be fraudulent transactions during this time frame.
-
-
 ## Instructions 2
 Some fraudsters hack a credit card by making several small payments (generally less than $2.00), which are typically ignored by cardholders. Count the transactions that are less than $2.00 per cardholder. 
 
 ### Question 2
 Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
+
+*Answer*: 
+Isolating the payments that are less than 2.00 per cardholder I found a total of 350 transactions out of 3500, what is not sufficient to say that any cardholder has in fact been hacked or not.
 
 
 ## Instructions 3
@@ -52,9 +49,11 @@ Using hvPlot, create a line plot representing the time series of transactions ov
 
 What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
 
+*Answer*: 
+
 ![CardHolder2_18](Images/Analysis_CH_2_18.png)
 
-*Answer*: After visually analyzed the spending patterns, it can be concluded that there may be some fraudulent transactions in the cardholder 18 records since there are some anomalous amounts throughout the year that break the typical spending pattern that can be seen on cardholder 2.
+After visually analyzed the spending patterns, it can be concluded that there may be some fraudulent transactions in the cardholder 18 records since there are some anomalous amounts throughout the year that break the typical spending pattern that can be seen on cardholder 2.
 
 
 ## Instructions 4
@@ -67,6 +66,8 @@ Using Plotly Express, create a series of six box plots, one for each month, in o
 ### Question 4
 Do you notice any anomalies? Describe your observations and conclusions.
 
+*Answer*: 
+
 ![CardHolder_25](Images/Analysis_Holder25.png)
 
-*Answer*: It can be concluded that cardholder 25 has been hacked along all the first semester of 2018 due to the high and consistent expenditures, except for February where there are not anomalous transactions.
+It can be concluded that cardholder 25 has been hacked along all the first semester of 2018 due to the high and consistent expenditures, except for February where there are not anomalous transactions.
